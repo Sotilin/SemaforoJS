@@ -1,0 +1,40 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(65, 146, 149);
+}
+.Semaforo
+{
+
+    background-color: black;
+    width: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Foco
+{
+    background-color: rgb(30, 32, 32);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+}
+.Foco.Rojo.active
+{
+    background-color: rgb(166, 20, 20);
+}
+.Foco.Amarillo.active
+{
+    background-color: rgb(212, 235, 37);
+}
+.Foco.Verde.active
+{
+    background-color: rgb(30, 93, 1);
+}
